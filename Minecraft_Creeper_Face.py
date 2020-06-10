@@ -1,5 +1,7 @@
 import cv2
 from Draw_Face import draw_creeper
+#run this file
+
 cascadePath = 'haarcascade_frontalface_default.xml' #replace with actual path to the haarcascade_frontalface_default.xml file
 faceCascade = cv2.CascadeClassifier(cascadePath)
 
